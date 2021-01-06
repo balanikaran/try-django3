@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>ITEM</h1>
+<li>{{ title }}</li>
+{% if description != None and description != '' %}<li>{{ description }}</li>{% endif %}
+<li>{{ price }}</li>
+{% endblock %}
